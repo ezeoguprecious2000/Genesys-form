@@ -20,7 +20,11 @@
           <div class="name">
             <p class="Name"><strong>Name</strong></p>
             <div class="input-area">
-              <input type="text" id="name" placeholder="Enter your name" />
+              <input
+                type="text"
+                class="txtarea"
+                placeholder="Enter your name"
+              />
             </div>
           </div>
           <div class="email">
@@ -28,7 +32,7 @@
             <div class="input-area">
               <input
                 type="email"
-                id="Email"
+                class="txtarea"
                 placeholder="Enter your email address"
               />
             </div>
@@ -36,13 +40,13 @@
           <div class="age">
             <p class="age"><strong>Age</strong></p>
             <div class="input-area">
-              <input type="number" id="" placeholder="age" />
+              <input type="number" class="txtarea" placeholder="age" />
             </div>
           </div>
           <p class="options">
             <strong>Which option best describes you?</strong>
           </p>
-          <select name="student">
+          <select name="student" class="txtarea">
             <option value="self employed">Self-employeed</option>
             <option value="graduate">Graduate</option>
             <option value="business owner">Business owner</option>
@@ -53,8 +57,8 @@
           </select>
 
           <p class="radio">
-            <strong>
-              would you recommend Genesys upskill program to your friends
+            <strong
+              >would you recommend Genesys upskill program to your friends
               ?</strong
             >
           </p>
@@ -80,8 +84,7 @@
             <input
               type="radio"
               id="maybe"
-              name="would you recommend Genesys
-            upskill program to your friends"
+              name="would you recommend Genesy upskill program to your friends"
               value="maybe"
             />
             <label for="maybe">Maybe</label>
@@ -122,12 +125,7 @@
             />
             <label for="javascript">javascript</label>
             <div>
-              <input
-                type="checkbox"
-                id="react"
-                name="Languange"
-                value="react"
-              />
+              <input type="checkbox" id="react" name="Languang value="react"/>
               <label for="react">React</label>
             </div>
             <div>
@@ -152,12 +150,10 @@
           <p><strong>Any comments or suggestions</strong></p>
           <textarea
             name=" comments or suggestions"
-            id="comments or suggestions"
+            class="txtfield"
             cols="70"
             rows="5"
           ></textarea>
-          <br />
-          <br />
           <button class="sub" type="submit">submit</button>
         </form>
       </div>
