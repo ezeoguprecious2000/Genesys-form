@@ -17,22 +17,20 @@ background-size: cover;
 
    .forms{
     background-color: white;
-    border-radius: 2px;
+    border-radius: 5px;
+    
+   }
+   .sub{
+    background-color: green;
+    background-position: 50;
+    width: 40%;
+    font-size: bold;
     
    } 
-   form input{
-    height: 10px;
-    font: size 1px; ;
-    outline: none;
-    justify-content: space-between;
-    font-size: 10px;
+   
     
-   }
-   .input-area{
-    word-spacing: normal;
-    height: fit-content;
+   
 
-   }
    .heading{
     text-align: center;
     font-family: "Playfair Display", serif;
